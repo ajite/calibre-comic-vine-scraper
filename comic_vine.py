@@ -3,6 +3,7 @@ import time
 import requests
 import argparse
 from config import config
+import sys
 
 COMIC_VINE_API_URL = "https://comicvine.gamespot.com/api"
 UNIQUE_AGENT_ID = config.UNIQUE_AGENT_ID
