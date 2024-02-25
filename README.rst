@@ -1,5 +1,5 @@
-Calibre Manga MetaData
-======================
+Calibre Comic Vine Scraper
+==========================
 
 Scraps metadata for manga from the ComicVine database and updates the metadata in the calibre library.
 Two scripts need to be run in sequence to update the metadata. One scraps the metadata and the other updates the calibre library.
