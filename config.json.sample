@@ -1,0 +1,5 @@
+{
+    "COMIC_VINE_API_KEY": "YOUR_API_KEY",
+    "CALIBRE_DB_PATH": "/home/ajite/Calibre Library/",
+    "UNIQUE_AGENT_ID": "NEED TO CHANGE IT TO SOMETHING UNIQUE. E.g: Bob Smith Manga Library Scrapper"
+}
