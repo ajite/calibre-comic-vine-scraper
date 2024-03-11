@@ -67,6 +67,9 @@ On windows I use the following batch file to run the script:
 
 ```./run.bat```
 
+On my Asustor NAS I use the ```./docker-add.sh``` to add the books to calibre (You need to have docker installed).
+Then I use ```./run.sh``` to parse metadata to my books. 
+
 .. warning::
     You might need to update the path to the calibre-debug command in the batch file.
 
