@@ -1,5 +1,6 @@
 import calibre.library
 from calibre.ebooks.metadata import title_sort, authors_to_sort_string
+import os
 import re
 import json
 import datetime
@@ -72,7 +73,8 @@ def get_serie_index_from_title(title: str):
 
 
 def load_results():
-    f = open("output/results.json", "r")
+    f_path = os.path.join(os.path.dirname(__file__), "output/results.json")
+    f = open(f_path, "r")
     return json.load(f)
 
 

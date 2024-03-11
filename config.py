@@ -1,4 +1,5 @@
 import json
+import os
 
 
 class Config:
@@ -12,5 +13,5 @@ class Config:
         self.CALIBRE_DB_PATH = config.get("CALIBRE_DB_PATH")
         self.UNIQUE_AGENT_ID = config.get("UNIQUE_AGENT_ID")
 
-
-config = Config(open("config.json", "r"))
+config_path = os.path.join(os.path.dirname(__file__), "config.json")
+config = Config(open(config_path, "r"))
