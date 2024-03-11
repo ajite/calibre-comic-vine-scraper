@@ -9,7 +9,7 @@ docker run \
   -d\
   --name=calibrecli \
   -e PUID=1000 \
-  -e PGID=1000 \
+  -e PGID=100 \
   -e TZ=Asia/Shanghai \
   -v /volume1/Media/books:/config \
   -v /volume1/Code/calibre-comic-vine-scraper:/code\
